@@ -1,0 +1,99 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #3e3e3e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            column-gap: 10px;
+            height: 100vh;
+        }
+        .main{
+            height: 850px;
+            width: 415px;
+            background: linear-gradient(#FFCC00 0% 24.5%, #feffef 24.5% 80%, #7703D6 80% 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 20px;
+            transition: all .25s ease-out;
+        }
+        .small-section{
+            padding: 20px 70px;
+            border-radius: 10px;
+           transition: all .25s; 
+            background-color: #F9DC00;
+            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+            color: #fffeef;
+            font-weight: bold;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            min-width: 300px;
+            text-align: center;
+        }
+        .small-section:hover{
+            padding: 25px 70px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+        }
+        .large-section{
+            padding: 60px 70px;
+            border-radius: 10px;
+            transition: all .25s ease-out;
+            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+            background: linear-gradient(#8A02F9, #8A02F9);
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            color: #E6E6FA;
+            font-weight: bold;
+            min-width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+            max-height: 117px;
+        }
+        .title{
+            margin-top: -100px;
+            color: #fffeef;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+        .main:hover{
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        }
+        .slogan{
+            margin-top: -20px;
+            color: #fffeef;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+        .logo{
+            padding: 20px;
+            border-radius: 50%;
+            transition: all .25s ease-out;
+            background-color: #FFF702;
+        }
+        .logo:hover{
+            padding: 25px;
+            border-radius: 50%;
+            transition: all .25s ease-out;
+            font-size: 1.25em;
+        }
+        .footer{
+            margin-bottom: -100px;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #cdcddf;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+        .subhead{
+            color: #926e00;
+            text-shadow: 0 0 1px #515151;
+        }
+        .free{
+            font-size: 3em;
+        }
+    
